@@ -1,7 +1,1 @@
-<<<<<<< HEAD
 Flask==2.3.3
-=======
-requests
-beautifulsoup4
-lxml
->>>>>>> a0d887bd4c23c00a79039528dcdc133339595f2a
