@@ -11,7 +11,7 @@ A simple REST API built with Flask for managing user data with full CRUD operati
 - **PUT /users/<id>** - Update an existing user
 - **DELETE /users/<id>** - Delete a user
 - **GET /health** - Health check endpoint
-=======
+- **GET /** - API status page (HTML)
 
 ## Setup
 
@@ -27,7 +27,19 @@ python app.py
 
 The API will be available at `http://localhost:5000`
 
+## Quick Start
+
+Visit `http://localhost:5000/` in your browser to see the API status page with all available endpoints.
+
 ## API Usage Examples
+
+### Check API status (Browser)
+Visit `http://localhost:5000/` - Shows a nice HTML page with "API is running!"
+
+### Health check
+```bash
+curl http://localhost:5000/health
+```
 
 ### Create a user
 ```bash
